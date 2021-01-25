@@ -1,0 +1,155 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+  /* font-weight: ; */
+}
+
+.container-fluid {
+  padding: 2% 15%;
+  /* height: 80%; */
+}
+
+h1 {
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.rotated {
+  
+  /* background-color: pink; */
+  /* height: 75%; */
+  width: 60%;
+  transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+  /* position: relative; */
+  /* z-index: 1; */
+  position: relative;
+}
+/* Navbar */
+.navbar-brand {
+  color: white !important;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  padding: 0 20px;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.icon {
+  /* width: 800%; */
+  color: #ef8172;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  top: -150px;
+  /* bottom: 450px; */
+  position: relative;
+  z-index: 1;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+}
+
+.card-title,
+.card-text {
+  text-align: center;
+}
+
+.icon:hover {
+  color: #f84c69;
+}
+
+/* testimonials section */
+
+#testimonials {
+  
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+
+.testimonial-image {
+    width: 20%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;  
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image {
+    width: 15%;
+    margin: 20px 20px 50px 20px;
+}
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    margin: 2% 2%;
+}
+
+#cta {
+    background-color: #E94564;
+    line-height: 1.5;
+    padding: 3% 6%;
+    font-family: "Montserrat-Black";
+}
+
+#footer {
+    text-align: center;
+}
+
+@media (max-width: 998px){
+    .rotated {
+        position: static;
+        transform: rotate(0deg); 
+        
+        
+    }
+}
+@media (max-width: 998px){
+    h1 {
+        text-align: center;
+        
+    }
+}
+
+.footer-icon {
+    padding: 10px;
+}
+
+.footer-container {
+    margin: 3% auto;
+}
